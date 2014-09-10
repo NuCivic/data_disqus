@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * nudata_disqus.features.user_permission.inc
+ * data_disqus.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function nudata_disqus_user_default_permissions() {
+function data_disqus_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'administer disqus'.

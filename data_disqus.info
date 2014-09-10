@@ -1,9 +1,9 @@
-name = nuData Disqus
-description = Disqus integration for nuData
+name = NuCivic Data Disqus
+description = Disqus integration for NuCivic Data
 core = 7.x
-package = nuData
+package = NUCIVIC
 version = 7.x-1.0
-project = nudata_disqus
+project = data_disqus
 dependencies[] = blog
 dependencies[] = ctools
 dependencies[] = disqus

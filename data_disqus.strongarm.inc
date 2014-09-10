@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * nudata_disqus.strongarm.inc
+ * data_disqus.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function nudata_disqus_strongarm() {
+function data_disqus_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

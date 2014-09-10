@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * nudata_disqus.features.inc
+ * data_disqus.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function nudata_disqus_ctools_plugin_api($module = NULL, $api = NULL) {
+function data_disqus_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
